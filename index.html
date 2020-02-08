@@ -5,9 +5,9 @@ layout: default
 <div class="gallery" id="gallery">
   {% for post in site.posts %}
       <div class="mb-3 pics animation all 2 container" >
-        <img class="img-fluid zoom" src="assets/images/{{ post.image }}" alt="Card image cap">
+        <img id="img{{ post.id }}" class="img-fluid zoom" src="assets/images/{{ post.image }}" alt="Card image cap">
         <div class="text-block">
-          <p>{{ post.title }}</p>
+          <p id="p{{post.id}}">{{ post.title }}</p>
         </div>
       </div>
   {% endfor %}
