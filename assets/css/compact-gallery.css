@@ -36,8 +36,11 @@ padding-right: 1.1rem;
 }
 
 .container {
-    position:relative; 
-    background-color: white;
+    position:relative;    
+}
+
+.container > img {
+     background-color: white;  
 }
 
 .text-block {
