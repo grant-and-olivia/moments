@@ -1,3 +1,5 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
+    if($('.zoom').is(":hover")) {
+        console.log($(this).attr("id"));
+    }
 });
