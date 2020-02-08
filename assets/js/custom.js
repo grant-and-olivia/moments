@@ -10,7 +10,7 @@ $( document ).ready(function() {
     });
     
     VANTA.TOPOLOGY({
-      el: "#page",
+      el: "body",
       mouseControls: true,
       touchControls: true,
       minHeight: 200.00,
