@@ -17,6 +17,6 @@ $( document ).ready(function() {
       scale: 1.00,
       scaleMobile: 1.00,
       color: 0xcf25d,
-      backgroundColor: 0x2a23a0
+      backgroundColor: 0xffffff
     })
 });
