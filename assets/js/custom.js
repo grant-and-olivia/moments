@@ -1,7 +1,5 @@
 $( document ).ready(function() {
-    $('.zoom').hover(function() {
-        var id = ($(this).attr("id")).replace('img', 'p');
-        console.log(id);
-        $("#"+id).hide();
+    $('div > img').hover(function() {
+        console.log($(this));
     });
 });
