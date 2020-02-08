@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    if($('.zoom:hover')) {
+    $('.zoom').hover(function() {
         console.log($(this).attr("id"));
-    }
+    });
 });
