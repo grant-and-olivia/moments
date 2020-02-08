@@ -35,11 +35,8 @@ padding-right: 1.1rem;
     position:relative; 
 }
 
-.text-box {
-    color: white;
-}
-
 .text {
+    color: white;
     text-align: center;
 }
 
