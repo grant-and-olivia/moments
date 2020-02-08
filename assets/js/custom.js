@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    $('div > img').hover(function() {
+    $('.container').hover(function() {
         console.log($(this).attr('id'));
     });
 });
