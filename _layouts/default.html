@@ -12,6 +12,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="p5.min.js"></script>
+    <script src="vanta.topology.min.js"></script>
 
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,6 +29,19 @@
     <main id="content" class="main-content" role="main">
       <script>
         AOS.init();
+      </script>
+      <script>
+        VANTA.TOPOLOGY({
+          el: "#gallery",
+          mouseControls: true,
+          touchControls: true,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0xcf25d,
+          backgroundColor: 0x2a23a0
+        })
       </script>
       {{ content }}
     </main>
