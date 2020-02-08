@@ -1,4 +1,8 @@
 $( document ).ready(function() {
+    
+    var w = $(window).width();
+    $('#page').css('width', w);
+    
     $('.container').mouseover(function() {
         $(this).find('p').css('visibility', 'visible');
         $(this).find('img').css('opacity', '0.5');
