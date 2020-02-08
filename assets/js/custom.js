@@ -1,10 +1,10 @@
 $( document ).ready(function() {
     $('.container').mouseover(function() {
-        console.log('yo');
         $(this).find('p').css('visibility', 'visible');
+        $(this).find('img').css('opacity', '0.5');
     });
     $('.container').mouseleave(function() {
-        console.log('chicken');
         $(this).find('p').css('visibility', 'hidden');
+        $(this).find('img').css('opacity', '1.0');
     });
 });
