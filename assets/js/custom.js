@@ -1,6 +1,8 @@
 $( document ).ready(function() {
     $('.container').hover(function() {
-        console.log($(this).attr('id'));
-        $(this).find('p').css('visibility', 'visible');;
+        $(this).find('p').css('visibility', 'visible');
+    }, function() {
+        $(this).find('p').css('visibility', 'hide');
     });
+    
 });
