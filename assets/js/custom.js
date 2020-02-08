@@ -1,6 +1,6 @@
 $( document ).ready(function() {
    
-    $('.container').mouseover(function() {
+    $('.container').mouseenter(function() {
         $(this).find('p').css('visibility', 'visible');
         $(this).find('img').css('opacity', '0.5');
     });
