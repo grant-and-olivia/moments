@@ -42,6 +42,7 @@ padding-right: 1.1rem;
     color: black;
     padding-left: 20px;
     padding-right: 20px;
+    visibility: hidden;
 }
 
 .zoom {
