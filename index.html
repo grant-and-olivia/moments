@@ -6,7 +6,9 @@ layout: default
   {% for post in site.posts %}
       <div class="mb-3 pics animation all 2 container" data-aos="fade-up">
         <img class="img-fluid zoom" src="assets/images/{{ post.image }}" alt="Card image cap">
-        
+        <div class="text">
+          <p>{{ post.title }}</p>
+        </div>
       </div>
   {% endfor %}
 </div>
