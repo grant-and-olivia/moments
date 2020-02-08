@@ -18,6 +18,6 @@ $( document ).ready(function() {
       scale: 1.00,
       scaleMobile: 1.00,
       color: 0xcf25d,
-      backgroundColor: 0xffffff
+      backgroundColor: 0x1e90ff
     })
 });
