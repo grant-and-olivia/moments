@@ -2,6 +2,13 @@ body {
     cursor: default   
 }
 
+.page-header {
+  color: white;
+  text-align: center;
+  background-color: #1E90FF;
+  background-image: linear-gradient(120deg, #0000CD, #1E90FF);
+}
+
 .gallery {
 -webkit-column-count: 3;
 -moz-column-count: 3;
