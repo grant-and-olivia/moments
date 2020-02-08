@@ -37,8 +37,8 @@ padding-right: 1.1rem;
 
 .text-block {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    top: 20px;
+    left: 20px;
     background-color: black;
     color: white;
     padding-left: 20px;
