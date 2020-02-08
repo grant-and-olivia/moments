@@ -5,6 +5,6 @@ $( document ).ready(function() {
     });
     $('.container').mouseleave(function() {
         console.log('chicken');
-        $(this).find('p').css('visibility', 'visible');
+        $(this).find('p').css('visibility', 'hidden');
     });
 });
