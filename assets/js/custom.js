@@ -9,7 +9,7 @@ $( document ).ready(function() {
     });
     
     VANTA.TOPOLOGY({
-      el: "#your-element-selector",
+      el: "#gallery",
       mouseControls: true,
       touchControls: true,
       minHeight: 200.00,
