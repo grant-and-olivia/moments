@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="page">
   <div class="gallery" id="gallery">
-    {% for post in site.posts | sort: 'date' %}
+    {% for post in site.posts reversed %}
         <div id="{{post.id}}" class="mb-3 pics animation all 2 container" >
           <img class="img-fluid zoom" src="assets/images/{{ post.image }}" alt="Card image cap">
           <div class="text-block">
