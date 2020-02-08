@@ -62,10 +62,6 @@ img {
   transition: transform .5s ease;   
 }
 
-.zoom:hover {
-  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
 #hzImg {
     display: none !important;
 }
