@@ -37,6 +37,7 @@ padding-right: 1.1rem;
 
 .container {
     position:relative; 
+    background-color: white;
 }
 
 .text-block {
@@ -48,7 +49,6 @@ padding-right: 1.1rem;
     padding-right: 20px;
     visibility: hidden;
     font-weight: bold;
-    background-color: white;
 }
 
 .zoom {
