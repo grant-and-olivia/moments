@@ -17,7 +17,7 @@ $( document ).ready(function() {
       minWidth: 200.00,
       scale: 1.00,
       scaleMobile: 1.00,
-      color: 0xcf25d,
-      backgroundColor: 0x1e90ff
+      color: 0x1e90ff,
+      backgroundColor: white
     })
 });
